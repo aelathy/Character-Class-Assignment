@@ -12,8 +12,6 @@ char1.Speak(1);
 char2.setLevel(2);
 char2.Speak(2);
 
-
-
 class Character
 {
     public string Name { get; set; }
@@ -43,7 +41,7 @@ class Character
 
     public int setLevel(int newLevel)
     {
-        Console.WriteLine("New level is " + newLevel);
+        Console.WriteLine($"New level of {Name} is {newLevel}.");
         return this.Level = newLevel;
     }
 }
