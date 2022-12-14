@@ -36,7 +36,11 @@ class Character
         {
             Console.WriteLine(Phrase2);
         }
-        return "Phrase number not found";
+        else
+        {
+            Console.WriteLine("Phrase # not found.");
+        }
+        return null;
     }
 
     public int setLevel(int newLevel)
